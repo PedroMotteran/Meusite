@@ -1,0 +1,299 @@
+.img_logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+body {
+    background-color: #E9DED7;
+    margin: 0px;
+}
+
+.contato {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    width: 120px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #A67458;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.contato:hover {
+    transform: scale(1.05)
+}
+
+.list_social {
+    padding-left: 0px;
+}
+.list_social li {
+    padding-bottom: 20px;
+    list-style: none;
+    margin-left: 0px;
+    transition: transform 0.1s ease;
+}
+
+.list_social li:hover {
+    transform: scale(1.05)
+}
+.main_div {
+    display: flex;
+}
+
+.titulos {
+    padding-left: 400px;
+    padding-top: 150px;
+}
+.nome {
+    font-size: 80px;
+    margin-bottom: 0px;
+    color: #825E49;
+}
+
+.slogan {
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #A1805E;
+}
+
+.subtitulo {
+    font-size: 20px;
+    margin-top: 0px;
+    color: #A1805E;
+}
+
+.ret {
+    width: 60px;
+    height: 400px;
+    background-color:#9E999F;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 140px;
+    
+}
+.soc_logo {
+    width: 55px;
+    height: 55px;
+}
+.trajetoria {
+    height: 500;
+    width: 960px;
+    
+    color: #A1805E;
+    
+    justify-content: center;
+    
+}
+
+.skills {
+    height: fit-content;
+    width: 480px;
+    
+    color: #A1805E;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+
+}
+
+.aboutme_tlt {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 120px;
+    color: #825E49;
+}
+
+.div_aboutme_infos {
+    display: flex;
+}
+
+.skills_tlt {
+    margin-left: 380px;
+    color: #A1805E;
+    
+}
+.trajetoria_tlt {
+    text-align: center;
+}
+
+.div_bt {
+    text-align: center;
+}
+
+.cta_bt {  
+    width: 120px;
+    height: 40px;
+    border-radius: 12px;
+    margin-top: 30px;
+    background-color: #A67458;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.traj_txt_div {
+    width: 600px;
+    height: 350px;
+    background-color:#9E999F;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-left: 170px;
+    box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+.skills_div {
+    background-color: #9E999F;
+    height: fit-content;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.24);
+    font-size: 20px;
+}
+
+.cta_bt:hover {
+    transform: scale(1.05)
+}
+
+.traj_txt {
+    padding-left: 40px;
+    padding-top: 65px;
+    margin-right: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+@media(max-width: 450px)
+{
+    .main_div{
+        width: auto;
+
+    }
+    .titulos{
+        padding-left: 20px;
+        padding-top: 60px;
+        flex-wrap: wrap;
+    }
+    .nome{
+        font-size: 40px;
+        margin-bottom: 7px;
+        width: fit-content;
+    }
+    .slogan{
+        font-size: 20px;
+        margin-bottom: 5px;
+        width: fit-content;
+    }
+    .subtitulo{
+        font-size: 13px;
+        width: auto;
+    }
+    .contato {
+        margin-top: 10px;
+        margin-right: 50px;
+        float: right;
+        width: 100px;
+        height: 30px;
+        border-radius: 8px;
+        background-color: #A67458;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: transform 0.1s ease;
+        font-size: 12px;
+    }
+    .ret{
+        width:fit-content;
+        height: fit-content;
+
+    }
+    .soc_logo {
+        width: 30px;
+        height: 30px;
+    }
+    .list_social{
+        padding-left: 3px;
+        padding-right: 3px;
+        margin-bottom: 10px;
+    }
+    .list_social li {
+        padding-bottom: 3px;
+        list-style: none;
+        margin-left: 0px;
+        transition: transform 0.1s ease;
+        
+    }
+
+    .aboutme_tlt {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+        color: #825E49;
+        
+    }
+    .div_aboutme_infos {
+        display: block;
+        width:auto;
+    }
+    .trajetoria_tlt {
+        text-align: left;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .traj_txt_div {
+        width: 350px;
+        height: fit-content;
+        background-color:#9E999F;
+        border-radius: 25px;
+        margin-top: 20px;
+        margin-left: 10px;
+        box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.2);
+    }
+    .traj_txt {
+        
+        padding-left: 15px;
+        padding-top: 30px;
+        margin-right: 15px;
+        padding-bottom: 30px;
+        color: white;
+        font-size: 14px;
+    }
+    .skills_div {
+        background-color: #9E999F;
+        height: fit-content;
+        color: white;
+        padding: 10px 14px;
+        border-radius: 8px;
+        margin: 7px;
+        font-weight: bold;
+        text-align: center;
+        box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.24);
+        font-size: 14px;
+    }
+    .skills_tlt {
+        margin-top: 40px;
+        margin-left: 30px;
+        color: #A1805E;
+        font-size: 20px;
+        
+    }
+    .skills {
+        height: fit-content;
+        width: auto;
+        color: #A1805E;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 5px;
+    
+    }
+}
