@@ -1,3 +1,9 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
 .img_logo {
     margin-top: 10px;
     margin-left: 10px;
@@ -164,6 +170,10 @@ body {
 .cta_bt:hover {
     transform: scale(1.05)
 }
+.zap {
+    text-decoration: none;
+    color: azure;
+}
 
 .traj_txt {
     padding-left: 40px;
@@ -175,14 +185,19 @@ body {
 
 @media(max-width: 450px)
 {
-    .main_div{
-        width: auto;
-
+    .skills, .traj_txt_div, .nome, .slogan {
+        max-width: 100%;
+    }
+    html, body {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
     }
     .titulos{
         padding-left: 20px;
         padding-top: 60px;
         flex-wrap: wrap;
+        width: fit-content;
     }
     .nome{
         font-size: 40px;
@@ -200,7 +215,7 @@ body {
     }
     .contato {
         margin-top: 10px;
-        margin-right: 50px;
+        margin-right: 30px;
         float: right;
         width: 100px;
         height: 30px;
@@ -289,11 +304,14 @@ body {
     }
     .skills {
         height: fit-content;
-        width: auto;
         color: #A1805E;
         display: flex;
         flex-wrap: wrap;
         margin-left: 5px;
     
     }
+    .main_div {
+        width: fit-content;
+    }
+
 }
